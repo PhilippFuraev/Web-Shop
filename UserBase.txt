@@ -1,0 +1,6 @@
+admin~admin~Admin~null
+user~user~User~null
+trader~trader~Trader~null~catalog1
+admindfsfsddfs~fdsdfsn~Trader~null~catalog1
+sdsfsd~adminsfddfs~Trader~null~catalog1
+adminsdffsdfsdsd~afsd~Trader~null~catalog1

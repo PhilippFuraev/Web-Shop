@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+  <servlet>
+      <servlet-name>LoginServlet</servlet-name>
+      <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/Card</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>ShopServlet</servlet-name>
+    <servlet-class>ShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShopServlet</servlet-name>
+    <url-pattern>/MainPage</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>DisplayImage</servlet-name>
+    <servlet-class>DisplayImage</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+    <servlet-name>DisplayImage</servlet-name>
+    <url-pattern>/DisplayImage/*</url-pattern>
+</servlet-mapping>
+
+	<servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DisplayItem</servlet-name>
+    <servlet-class>DisplayItem</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+    <servlet-name>DisplayItem</servlet-name>
+    <url-pattern>/item/*</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>RemoveFromCardServlet</servlet-name>
+    <servlet-class>RemoveFromCardServlet</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+    <servlet-name>RemoveFromCardServlet</servlet-name>
+    <url-pattern>/removeFromCard/*</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>RegisterTraderServlet</servlet-name>
+    <servlet-class>RegisterTraderServlet</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+    <servlet-name>RegisterTraderServlet</servlet-name>
+    <url-pattern>/RegisterTraderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>CatalogServlet</servlet-name>
+    <servlet-class>CatalogServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CatalogServlet</servlet-name>
+    <url-pattern>/catalog/*</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>AddCatalogServlet</servlet-name>
+    <servlet-class>AddCatalogServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCatalogServlet</servlet-name>
+    <url-pattern>/AddCatalog</url-pattern>
+  </servlet-mapping>
+
+	<servlet>
+    <servlet-name>UploadForAdmin</servlet-name>
+    <servlet-class>UploadForAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadForAdmin</servlet-name>
+    <url-pattern>/UploadForAdmin</url-pattern>
+  </servlet-mapping>
+
+
+<servlet>
+    <servlet-name>RemoveCatalogServlet</servlet-name>
+    <servlet-class>RemoveCatalogServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveCatalogServlet</servlet-name>
+    <url-pattern>/RemoveCatalog</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>RegisterTraderMenu</servlet-name>
+    <servlet-class>RegisterTraderMenu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterTraderMenu</servlet-name>
+    <url-pattern>/RegisterTraderMenu</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+    </web-app>
